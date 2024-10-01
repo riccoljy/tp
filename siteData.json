@@ -7,11 +7,11 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "han-b1n": "Han B1n",
+        "danza-seah": "Danza Seah",
+        "dasha-sychova": "Dasha Sychova",
+        "ricco-lim": "Ricco Lim",
+        "peh-ting-xuan": "Peh Ting Xuan"
       },
       "headingKeywords": {}
     },
@@ -136,8 +136,40 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
+      "src": "team/HanB1n.md",
       "title": "John Doe's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/danzaseah.md",
+      "title": "Danza's Project Portfolio Page",
+      "headings": {
+        "project-wedlinker": "Project: WedLinker"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/dasha3412.md",
+      "title": "Dasha's Project Portfolio Page",
+      "headings": {
+        "project-wedlinker": "Project: WedLinker"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/riccoljy.md",
+      "title": "Ricco's Project Portfolio Page",
+      "headings": {
+        "project-wedding-planner-pro": "Project: Wedding Planner Pro"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/tingxuanp.md",
+      "title": "Ting Xuan's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
