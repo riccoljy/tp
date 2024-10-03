@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "wedlinker-developer-guide": "WedLinker Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -107,7 +107,7 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
+        "wedlinker-user-guide": "WedLinker User Guide",
         "quick-start": "Quick start",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
@@ -136,14 +136,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/HanB1n.md",
-      "title": "John Doe's Project Portfolio Page",
-      "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
-      },
-      "headingKeywords": {}
-    },
-    {
       "src": "team/danzaseah.md",
       "title": "Danza's Project Portfolio Page",
       "headings": {
@@ -154,6 +146,14 @@
     {
       "src": "team/dasha3412.md",
       "title": "Dasha's Project Portfolio Page",
+      "headings": {
+        "project-wedlinker": "Project: WedLinker"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/hanb1n.md",
+      "title": "Han Bin's Project Portfolio Page",
       "headings": {
         "project-wedlinker": "Project: WedLinker"
       },
