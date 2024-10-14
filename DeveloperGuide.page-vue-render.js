@@ -236,7 +236,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC01 List all Contacts")])]
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User issues the list command.")])]),_v(" "),_c('li',[_c('p',[_v("The system retrieves and displays the list of all contacts to the user.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to view all contacts.")])]),_v(" "),_c('li',[_c('p',[_v("The system retrieves and displays the list of all contacts to the user.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC02 Add a Contact")])])}
@@ -251,7 +251,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to add contact wit
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The system detects a name input error (duplicated or trailing whitespace).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. The system displays an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1b. The system detects a phone number input error (invalid format).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1b1. The system displays an error message stating the correct format.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1c. The system detects an address input error (too long).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1c1. The system displays an error message stating the maximum length.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1d. The system detects an email input error (invalid format).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1d1. The system displays an error message stating the correct format.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1e. The system detects a duplicate phone number error.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1e1. The system displays an error message mentioning the existence of a duplicate phone number.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1f. The system detects an invalid tag input.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1f1. The system displays an error message stating the tag is invalid.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. The system detects an error in the entered data.\n"),_c('ul',[_c('li',[_c('p',[_v("1a1. The system displays an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC03 Add Phone Number to Contact")])])}
@@ -272,7 +272,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all 
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2a. The system detects an invalid contact index.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. The system displays an error message stating the contact index is invalid.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. The system detects a phone number input error (invalid format).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. The system displays an error message stating the correct format.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2c. The system detects a duplicate phone number error.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2c1. The system displays an error message mentioning the existence of a duplicate phone number.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2a. The system detects an error in the entered data.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. The system displays an error message")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC04 Add Address to Contact")])])}
@@ -287,7 +287,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all 
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2a. The system detects an invalid contact index.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. The system displays an error message stating the contact index is invalid.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. The system detects an address input error (too long).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. The system displays an error message stating the maximum length.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2a. The system detects an error in the entered data.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. The system displays an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC05 Add Email to Contact")])])}
@@ -302,7 +302,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all 
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2a. The system detects an invalid contact index.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. The system displays an error message stating the contact index is invalid.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. The system detects an email input error (invalid format).")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. The system displays an error message stating the correct format.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("2a. The system detects an error in the entered data.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. The system displays an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC06 Search for Contacts by Name")])])}
@@ -590,6 +590,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 10 Oct 2024, 14:25:14 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 15 Oct 2024, 0:59:40 GMT+8]")])])])}
 }];
   
