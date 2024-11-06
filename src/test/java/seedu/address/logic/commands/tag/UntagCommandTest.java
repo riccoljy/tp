@@ -1,10 +1,14 @@
 package seedu.address.logic.commands.tag;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static seedu.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
 import static seedu.address.testutil.Assert.assertThrows;
 import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST;
 import static seedu.address.testutil.TypicalIndexes.INDEX_SECOND;
 import static seedu.address.testutil.TypicalPersons.getTypicalAddressBook;
+import static seedu.address.testutil.TypicalTags.FLORIST;
+import static seedu.address.testutil.TypicalTags.PHOTOGRAPHER;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -147,5 +151,47 @@ public class UntagCommandTest {
         String expectedMessage = Messages.MESSAGE_TAG_NOT_FOUND_IN_CONTACT;
 
         CommandTestUtil.assertCommandFailure(untagCommand, model, expectedMessage);
+    }
+
+    @Test
+    public void equals() {
+        // Create some sample tags
+        Tag tag1 = FLORIST;
+        Tag tag2 = PHOTOGRAPHER;
+
+        // Create UntagCommand objects
+        UntagCommand untagCommand1 = new UntagCommand(Index.fromOneBased(1), new HashSet<>() {{
+                add(tag1);
+                add(tag2);
+            }});
+
+        UntagCommand untagCommand2 = new UntagCommand(Index.fromOneBased(1), new HashSet<>() {{
+                add(tag1);
+                add(tag2);
+            }});
+
+        UntagCommand untagCommand3 = new UntagCommand(Index.fromOneBased(2), new HashSet<>() {{
+                add(tag1);
+                add(tag2);
+            }});
+
+        UntagCommand untagCommand4 = new UntagCommand(Index.fromOneBased(1), new HashSet<>() {{
+                add(tag1);
+            }});
+
+        // Same index and same tags -> should be equal
+        assertEquals(untagCommand1, untagCommand2);
+
+        // Different index -> should not be equal
+        assertNotEquals(untagCommand1, untagCommand3);
+
+        // Same index but different set of tags -> should not be equal
+        assertNotEquals(untagCommand1, untagCommand4);
+
+        // Comparing with itself -> should be equal
+        assertEquals(untagCommand1, untagCommand1);
+
+        // Comparing with null -> should not be equal
+        assertNotEquals(null, untagCommand1);
     }
 }

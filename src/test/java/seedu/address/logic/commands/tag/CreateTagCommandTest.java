@@ -79,6 +79,16 @@ public class CreateTagCommandTest {
         assertNotEquals(createFloristCommand, createPhotographerCommand);
     }
 
+    @Test
+    public void testToString() {
+        // Create the CreateTagCommand with the tag
+        CreateTagCommand command = new CreateTagCommand(new Tag(new TagName(VALID_TAG_FLORIST)));
+
+        // Verify the string representation of the command
+        String expectedString = "seedu.address.logic.commands.tag.CreateTagCommand{toAdd=[florist]}";
+        assertEquals(expectedString, command.toString());
+    }
+
     /**
      * A default model stub that have all methods failing.
      */

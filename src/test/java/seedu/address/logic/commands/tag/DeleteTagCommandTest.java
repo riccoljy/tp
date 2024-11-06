@@ -84,4 +84,14 @@ public class DeleteTagCommandTest {
         // different tag -> returns false
         assertNotEquals(deleteFloristTagCommand, deletePhotographerTagCommandCopy);
     }
+
+    @Test
+    public void testToString() {
+        // Create the CreateTagCommand with the tag
+        DeleteTagCommand command = new DeleteTagCommand(FLORIST);
+
+        // Verify the string representation of the command
+        String expectedString = "seedu.address.logic.commands.tag.DeleteTagCommand{targetTag=[florist]}";
+        assertEquals(expectedString, command.toString());
+    }
 }

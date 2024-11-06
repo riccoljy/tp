@@ -136,6 +136,4 @@ public class TagCommand extends Command {
         return index.equals(otherCommand.index)
                 && tagsToAdd.equals(otherCommand.tagsToAdd);
     }
-
-
 }
