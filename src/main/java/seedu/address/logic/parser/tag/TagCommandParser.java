@@ -1,4 +1,4 @@
-package seedu.address.logic.parser;
+package seedu.address.logic.parser.tag;
 
 import static java.util.Objects.requireNonNull;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_FORCE;
@@ -10,7 +10,11 @@ import java.util.Set;
 
 import javafx.util.Pair;
 import seedu.address.commons.core.index.Index;
-import seedu.address.logic.commands.TagCommand;
+import seedu.address.logic.commands.tag.TagCommand;
+import seedu.address.logic.parser.ArgumentMultimap;
+import seedu.address.logic.parser.ArgumentTokenizer;
+import seedu.address.logic.parser.Parser;
+import seedu.address.logic.parser.TaggingCommandParserUtil;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.tag.Tag;
 

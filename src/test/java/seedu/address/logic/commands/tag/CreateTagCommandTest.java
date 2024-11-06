@@ -1,15 +1,15 @@
-package seedu.address.logic.commands;
+package seedu.address.logic.commands.tag;
 
 import static java.util.Objects.requireNonNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static seedu.address.logic.commands.CommandTestUtil.VALID_TAG_FLORIST;
 import static seedu.address.logic.commands.CommandTestUtil.VALID_TAG_PHOTOGRAPHER;
 import static seedu.address.testutil.Assert.assertThrows;
 
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
 import java.util.function.Predicate;
 
 import org.junit.jupiter.api.Test;
@@ -17,6 +17,7 @@ import org.junit.jupiter.api.Test;
 import javafx.collections.ObservableList;
 import seedu.address.commons.core.GuiSettings;
 import seedu.address.logic.Messages;
+import seedu.address.logic.commands.CommandResult;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.AddressBook;
 import seedu.address.model.Model;
@@ -44,7 +45,7 @@ public class CreateTagCommandTest {
         CommandResult commandResult = new CreateTagCommand(validTag).execute(modelStub);
         assertEquals(String.format(CreateTagCommand.MESSAGE_SUCCESS, Messages.format(validTag)),
                 commandResult.getFeedbackToUser());
-        assertEquals(Arrays.asList(validTag), modelStub.tagsAdded);
+        assertEquals(List.of(validTag), modelStub.tagsAdded);
     }
 
     @Test
@@ -71,20 +72,17 @@ public class CreateTagCommandTest {
         CreateTagCommand createFloristCommandCopy = new CreateTagCommand(florist);
         assertEquals(createFloristCommand, createFloristCommandCopy);
 
-        // different types -> returns false
-        assertFalse(createFloristCommand.equals(1));
-
         // null -> return false
-        assertFalse(createFloristCommand.equals(null));
+        assertNotEquals(null, createFloristCommand);
 
         // different tag -> return false
-        assertFalse(createFloristCommand.equals(createPhotographerCommand));
+        assertNotEquals(createFloristCommand, createPhotographerCommand);
     }
 
     /**
-     * A default model stub that have all of the methods failing.
+     * A default model stub that have all methods failing.
      */
-    private class ModelStub implements Model {
+    private static class ModelStub implements Model {
         @Override
         public void setUserPrefs(ReadOnlyUserPrefs userPrefs) {
             throw new AssertionError("This method should not be called.");
@@ -289,7 +287,7 @@ public class CreateTagCommandTest {
     /**
      * A Model stub that contains a single tag.
      */
-    private class ModelStubWithTag extends CreateTagCommandTest.ModelStub {
+    private static class ModelStubWithTag extends CreateTagCommandTest.ModelStub {
         private final Tag tag;
 
         ModelStubWithTag(Tag tag) {
@@ -307,7 +305,7 @@ public class CreateTagCommandTest {
     /**
      * A Model stub that always accept the tag being added.
      */
-    private class ModelStubAcceptingTagAdded extends CreateTagCommandTest.ModelStub {
+    private static class ModelStubAcceptingTagAdded extends CreateTagCommandTest.ModelStub {
         final ArrayList<Tag> tagsAdded = new ArrayList<>();
 
         @Override

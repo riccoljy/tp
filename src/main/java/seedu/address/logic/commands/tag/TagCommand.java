@@ -1,4 +1,4 @@
-package seedu.address.logic.commands;
+package seedu.address.logic.commands.tag;
 
 import static java.util.Objects.requireNonNull;
 import static seedu.address.logic.Messages.MESSAGE_ADD_TAG_SUCCESS;
@@ -13,6 +13,8 @@ import java.util.stream.Collectors;
 
 import seedu.address.commons.core.index.Index;
 import seedu.address.logic.Messages;
+import seedu.address.logic.commands.Command;
+import seedu.address.logic.commands.CommandResult;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
 import seedu.address.model.person.Person;
@@ -127,11 +129,10 @@ public class TagCommand extends Command {
             return true;
         }
 
-        if (!(other instanceof TagCommand)) {
+        if (!(other instanceof TagCommand otherCommand)) {
             return false;
         }
 
-        TagCommand otherCommand = (TagCommand) other;
         return index.equals(otherCommand.index)
                 && tagsToAdd.equals(otherCommand.tagsToAdd);
     }

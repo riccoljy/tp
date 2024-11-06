@@ -1,4 +1,4 @@
-package seedu.address.logic.parser;
+package seedu.address.logic.parser.tag;
 
 import static seedu.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_FORCE;
@@ -6,7 +6,12 @@ import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;
 
 import java.util.stream.Stream;
 
-import seedu.address.logic.commands.DeleteTagCommand;
+import seedu.address.logic.commands.tag.DeleteTagCommand;
+import seedu.address.logic.parser.ArgumentMultimap;
+import seedu.address.logic.parser.ArgumentTokenizer;
+import seedu.address.logic.parser.Parser;
+import seedu.address.logic.parser.ParserUtil;
+import seedu.address.logic.parser.Prefix;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.tag.Tag;
 
@@ -29,7 +34,7 @@ public class DeleteTagCommandParser implements Parser<DeleteTagCommand> {
         }
 
         argMultimap.verifyNoDuplicatePrefixesFor(PREFIX_TAG);
-        Tag tag = ParserUtil.parseTag(argMultimap.getValue(PREFIX_TAG).get());
+        Tag tag = ParserUtil.parseTag(argMultimap.getValue(PREFIX_TAG).orElse(null));
         if (arePrefixesPresent(argMultimap, PREFIX_FORCE)) {
             return new DeleteTagCommand(tag, true);
         } else {

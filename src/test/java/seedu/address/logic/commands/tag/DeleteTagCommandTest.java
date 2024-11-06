@@ -1,7 +1,7 @@
-package seedu.address.logic.commands;
+package seedu.address.logic.commands.tag;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static seedu.address.logic.commands.CommandTestUtil.assertCommandFailure;
 import static seedu.address.logic.commands.CommandTestUtil.assertCommandSuccess;
 import static seedu.address.testutil.TypicalPersons.getTypicalAddressBook;
@@ -17,7 +17,7 @@ import seedu.address.model.UserPrefs;
 import seedu.address.model.tag.Tag;
 
 public class DeleteTagCommandTest {
-    private Model model = new ModelManager(getTypicalAddressBook(), new UserPrefs());
+    private final Model model = new ModelManager(getTypicalAddressBook(), new UserPrefs());
 
     @Test
     public void execute_validDeleteTagCommand_success() {
@@ -72,19 +72,16 @@ public class DeleteTagCommandTest {
         DeleteTagCommand deletePhotographerTagCommandCopy = new DeleteTagCommand(PHOTOGRAPHER);
 
         // same object -> returns true
-        assertTrue(deleteFloristTagCommand.equals(deleteFloristTagCommand));
+        assertEquals(deleteFloristTagCommand, deleteFloristTagCommand);
 
         // same values -> returns true
         DeleteTagCommand deleteFloristTagCommandCopy = new DeleteTagCommand(FLORIST);
-        assertTrue(deleteFloristTagCommand.equals(deleteFloristTagCommandCopy));
-
-        // different types -> return false
-        assertFalse(deleteFloristTagCommand.equals(1));
+        assertEquals(deleteFloristTagCommand, deleteFloristTagCommandCopy);
 
         // null -> returns false
-        assertFalse(deleteFloristTagCommand.equals(null));
+        assertNotEquals(null, deleteFloristTagCommand);
 
         // different tag -> returns false
-        assertFalse(deleteFloristTagCommand.equals(deletePhotographerTagCommandCopy));
+        assertNotEquals(deleteFloristTagCommand, deletePhotographerTagCommandCopy);
     }
 }

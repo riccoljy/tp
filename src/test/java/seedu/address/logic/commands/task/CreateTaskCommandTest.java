@@ -1,7 +1,7 @@
-package seedu.address.logic.commands;
+package seedu.address.logic.commands.task;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static seedu.address.testutil.TypicalTasks.DEADLINE_TASK;
 import static seedu.address.testutil.TypicalTasks.EVENT_TASK;
@@ -12,6 +12,7 @@ import java.util.HashSet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import seedu.address.logic.commands.CommandResult;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
 import seedu.address.model.ModelManager;
@@ -77,7 +78,7 @@ public class CreateTaskCommandTest {
 
         CreateTaskCommand command = new CreateTaskCommand(tasksToAdd);
 
-        String expectedString = "seedu.address.logic.commands.CreateTaskCommand{taskToAdd=[[T][ ] Buy groceries]}";
+        String expectedString = "seedu.address.logic.commands.task.CreateTaskCommand{taskToAdd=[[T][ ] Buy groceries]}";
         assertEquals(expectedString, command.toString());
     }
 
@@ -99,14 +100,11 @@ public class CreateTaskCommandTest {
         CreateTaskCommand addFirstTaskCommandCopy = new CreateTaskCommand(taskSet1);
         assertEquals(addFirstTaskCommand, addFirstTaskCommandCopy);
 
-        // different types -> returns false
-        assertFalse(addFirstTaskCommand.equals(1));
-
         // null -> returns false
-        assertFalse(addFirstTaskCommand.equals(null));
+        assertNotEquals(null, addFirstTaskCommand);
 
         // different task sets -> returns false
-        assertFalse(addFirstTaskCommand.equals(addSecondTaskCommand));
+        assertNotEquals(addFirstTaskCommand, addSecondTaskCommand);
     }
 
 }

@@ -1,4 +1,4 @@
-package seedu.address.logic.parser;
+package seedu.address.logic.parser.tag;
 
 import static seedu.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
 import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;
@@ -7,11 +7,11 @@ import static seedu.address.testutil.TypicalTags.FLORIST;
 
 import org.junit.jupiter.api.Test;
 
-import seedu.address.logic.commands.DeleteTagCommand;
+import seedu.address.logic.commands.tag.DeleteTagCommand;
 
 public class DeleteTagCommandParserTest {
 
-    private DeleteTagCommandParser parser = new DeleteTagCommandParser();
+    private final DeleteTagCommandParser parser = new DeleteTagCommandParser();
 
     @Test
     public void parse_validArgs_returnsDeleteTagCommand() {
