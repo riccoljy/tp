@@ -77,6 +77,18 @@ public class AssignWeddingCommand extends Command {
 
         Person personToEdit = lastShownList.get(index.getZeroBased());
 
+        Set<Wedding> updatedWeddings = new HashSet<>(personToEdit.getWeddings());
+        updatedWeddings.addAll(weddingsToAdd.keySet());
+
+        Person editedPerson = new Person(
+                personToEdit.getName(),
+                personToEdit.getPhone(),
+                personToEdit.getEmail(),
+                personToEdit.getAddress(),
+                personToEdit.getTags(),
+                updatedWeddings,
+                personToEdit.getTasks());
+
         for (Map.Entry<Wedding, String> entry : weddingsToAdd.entrySet()) {
             Wedding wedding = entry.getKey();
             if (!model.hasWedding(wedding)) {
@@ -91,27 +103,14 @@ public class AssignWeddingCommand extends Command {
             Wedding editedWedding = wedding.clone();
             String type = entry.getValue();
             switch (type) {
-            case "p1" -> editedWedding.setPartner1(personToEdit);
-            case "p2" -> editedWedding.setPartner2(personToEdit);
-            case "g" -> editedWedding.addToGuestList(personToEdit);
-            default -> { }
+            case "p1" -> editedWedding.setPartner1(editedPerson);
+            case "p2" -> editedWedding.setPartner2(editedPerson);
+            //case "g" -> editedWedding.addToGuestList(personToEdit);
+            default -> editedWedding.addToGuestList(editedPerson);
             }
             wedding.increasePeopleCount();
             model.setWedding(wedding, editedWedding);
         }
-
-        Set<Wedding> updatedWeddings = new HashSet<>(personToEdit.getWeddings());
-        updatedWeddings.addAll(weddingsToAdd.keySet());
-
-        Person editedPerson = new Person(
-                personToEdit.getName(),
-                personToEdit.getPhone(),
-                personToEdit.getEmail(),
-                personToEdit.getAddress(),
-                personToEdit.getTags(),
-                updatedWeddings,
-                personToEdit.getTasks());
-
         model.setPerson(personToEdit, editedPerson);
         model.updateFilteredPersonList(Model.PREDICATE_SHOW_ALL_PERSONS);
 

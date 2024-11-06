@@ -85,6 +85,22 @@ public class Person {
     }
 
     /**
+     * Removes wedding from person's wedding list
+     * @param weddingToRemove wedding to be removed
+     */
+    public void removeWedding(Wedding weddingToRemove) {
+        this.weddings.remove(weddingToRemove);
+    }
+
+    /**
+     * Adds wedding to person's wedding list
+     * @param weddingToAdd wedding to be added
+     */
+    public void addWedding(Wedding weddingToAdd) {
+        this.weddings.add(weddingToAdd);
+    }
+
+    /**
      * Returns true if both persons have the same name.
      * This defines a weaker notion of equality between two persons.
      */
@@ -108,11 +124,10 @@ public class Person {
         }
 
         // instanceof handles nulls
-        if (!(other instanceof Person)) {
+        if (!(other instanceof Person otherPerson)) {
             return false;
         }
 
-        Person otherPerson = (Person) other;
         return name.equals(otherPerson.name)
                 && phone.equals(otherPerson.phone)
                 && email.equals(otherPerson.email)
@@ -139,6 +154,15 @@ public class Person {
                 .add("weddings", weddings)
                 .add("tasks", tasks)
                 .toString();
+    }
+
+    @Override
+    public Person clone() {
+        try {
+            return (Person) super.clone();
+        } catch (CloneNotSupportedException e) {
+            return new Person(name, phone, email, address, tags, weddings, tasks);
+        }
     }
 
 }
