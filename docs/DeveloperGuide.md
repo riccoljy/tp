@@ -26,7 +26,8 @@ Refer to the guide [_Setting up and getting started_](SettingUp.md).
 ## **Design**
 
 ### Architecture
-The ***Architecture Diagram*** given below explains the high-level design of the App, giving a quick overview of main components and how they interact with each other.
+The ***Architecture Diagram*** given below explains the high-level design of the App, giving a quick overview of main
+components and how they interact with each other.
 <puml src="diagrams/ArchitectureDiagram.puml" width="280" />
 
 **Main components of the architecture**
