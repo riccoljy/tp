@@ -38,6 +38,7 @@
     },
     {
       "src": "DeveloperGuide.md",
+      "title": "Developer guide",
       "headings": {
         "wedlinker-developer-guide": "WedLinker Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -91,6 +92,7 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
+        "quick-guide": "Quick Guide",
         "deleting-a-person": "Deleting a person",
         "saving-data": "Saving data"
       },
@@ -171,6 +173,9 @@
         "un-assigning-a-task-from-a-contact-unassign-task": "Un-assigning a Task from a contact : unassign-task",
         "mark-a-task-as-completed-mark-task": "Mark a task as completed : mark-task",
         "un-mark-a-task-unmark-task": "Un-mark a task  : unmark-task",
+        "vendor-features": "Vendor Features",
+        "assigning-a-vendor-assign-vendor": "Assigning a Vendor : assign-vendor",
+        "unassigning-a-vendor-unassign-vendor": "Unassigning a Vendor : unassign-vendor",
         "faq": "FAQ",
         "known-issues": "Known issues",
         "command-summary": "Command summary"
