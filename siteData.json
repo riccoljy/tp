@@ -52,6 +52,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "force-feature": "Force Feature",
+        "tag-feature": "Tag Feature",
         "wedding-feature": "Wedding Feature",
         "vendors": "Vendors",
         "task": "Task",
@@ -94,7 +95,8 @@
         "launch-and-shutdown": "Launch and shutdown",
         "quick-guide": "Quick Guide",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements"
       },
       "headingKeywords": {}
     },
@@ -146,7 +148,7 @@
         "listing-all-persons-list": "Listing all Persons : list",
         "listing-all-weddings-list-weddings": "Listing all Weddings : list-weddings",
         "listing-all-tasks-list-tasks": "Listing all Tasks : list-tasks",
-        "locating-contacts-by-any-field-similar-to-a-search-function-find": "Locating contacts by any field, similar to a search function: find",
+        "listing-all-tags-list-tags": "Listing all Tags : list-tags",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
@@ -155,6 +157,7 @@
         "adding-a-person-add": "Adding a person: add",
         "editing-a-person-edit": "Editing a person : edit",
         "deleting-a-person-delete": "Deleting a person : delete",
+        "locating-contacts-by-any-field-similar-to-a-search-function-find": "Locating contacts by any field, similar to a search function: find",
         "tag-features": "Tag Features",
         "adding-a-tag-create-tag": "Adding a tag : create-tag",
         "assign-tag-to-contact-tag": "Assign tag to contact : tag",
