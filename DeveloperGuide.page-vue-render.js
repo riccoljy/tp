@@ -407,19 +407,19 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to view all contac
 with(this){return _c('h3',{attrs:{"id":"use-case-uc02-list-all-weddings"}},[_c('strong',[_v("Use case: UC02 — List all Weddings")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc02-list-all-weddings","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("UC01")]),_v(" except to view weddings instead of contacts.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("UC01")])]),_v(" except to view weddings instead of contacts.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc03-list-all-tasks"}},[_c('strong',[_v("Use case: UC03 — List all Tasks")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc03-list-all-tasks","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("UC01")]),_v(" except to view tasks instead of contacts.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("UC01")])]),_v(" except to view tasks instead of contacts.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc04-list-all-tags"}},[_c('strong',[_v("Use case: UC04 — List all Tags")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc04-list-all-tags","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("UC01")]),_v(" except to view tags instead of contacts.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("UC01")])]),_v(" except to view tags instead of contacts.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc05-create-a-contact"}},[_c('strong',[_v("Use case: UC05 — Create a Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc05-create-a-contact","onclick":"event.stopPropagation()"}})])}
@@ -440,19 +440,19 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The contact already exists."
 with(this){return _c('h3',{attrs:{"id":"use-case-uc06-create-a-wedding"}},[_c('strong',[_v("Use case: UC06 — Create a Wedding")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc06-create-a-wedding","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc05create-a-contact"}},[_v("UC05")]),_v(" except adding a wedding to WedLinker instead of a Contact")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc05-create-a-contact"}},[_c('ins',[_v("UC05")])]),_v(" except adding a wedding to WedLinker instead of a Contact")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc07-create-a-task"}},[_c('strong',[_v("Use case: UC07 — Create a Task")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc07-create-a-task","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc05create-a-contact"}},[_v("UC05")]),_v(" except adding a task to WedLinker instead of a Contact")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc05-create-a-contact"}},[_c('ins',[_v("UC05")])]),_v(" except adding a task to WedLinker instead of a Contact")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc08-create-a-tag"}},[_c('strong',[_v("Use case: UC08 — Create a Tag")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc08-create-a-tag","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc05create-a-contact"}},[_v("UC05")]),_v(" except adding a tag to WedLinker instead of a Contact")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc05-create-a-contact"}},[_c('ins',[_v("UC05")])]),_v(" except adding a tag to WedLinker instead of a Contact")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc09-add-phone-number-to-contact"}},[_c('strong',[_v("Use case: UC09 — Add Phone Number to Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc09-add-phone-number-to-contact","onclick":"event.stopPropagation()"}})])}
@@ -467,7 +467,7 @@ with(this){return _c('ul',[_c('li',[_v("No duplicate phone numbers will be store
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to add phone number for a contact with the corresponding details.")])]),_v(" "),_c('li',[_c('p',[_v("The system adds the phone number to the contact and displays a success message.")])]),_v(" "),_c('li',[_c('p',[_v("The system displays the updated contact information in the address book.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to add phone number for a contact with the corresponding details.")])]),_v(" "),_c('li',[_c('p',[_v("The system adds the phone number to the contact and displays a success message.")])]),_v(" "),_c('li',[_c('p',[_v("The system displays the updated contact information in the address book.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -479,13 +479,13 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.\nUse case
 with(this){return _c('h3',{attrs:{"id":"use-case-uc10-add-address-to-contact"}},[_c('strong',[_v("Use case: UC10 — Add Address to Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc10-add-address-to-contact","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc09add-phone-number-to-contact"}},[_v("UC09")]),_v(" except duplicated addresses are allowed")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc09-add-phone-number-to-contact"}},[_c('ins',[_v("UC09")])]),_v(" except duplicated addresses are allowed")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc11-add-email-to-contact"}},[_c('strong',[_v("Use case: UC11 — Add Email to Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc11-add-email-to-contact","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc09add-phone-number-to-contact"}},[_v("UC09")]),_v(" except duplicated email addresses are allowed")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc09-add-phone-number-to-contact"}},[_c('ins',[_v("UC09")])]),_v(" except duplicated email addresses are allowed")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc12-tag-a-contact"}},[_c('strong',[_v("Use case: UC12 — Tag a Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc12-tag-a-contact","onclick":"event.stopPropagation()"}})])}
@@ -494,7 +494,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc12-tag-a-contact"}},[_c('stro
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tags "),_c('a',{attrs:{"href":"#use-case-uc04list-all-tags"}},[_v("(UC04)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to tag a contact with a specified tag.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the updated contact with the new tag assigned to them, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc010-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tags "),_c('a',{attrs:{"href":"#use-case-uc04-list-all-tags"}},[_c('ins',[_v("(UC04)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to tag a contact with a specified tag.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the updated contact with the new tag assigned to them, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -509,7 +509,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc13-untag-a-contact"}},[_c('st
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tags "),_c('a',{attrs:{"href":"#use-case-uc04list-all-tags"}},[_v("(UC04)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to untag a contact with a specified tag.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the updated contact with the tag unassigned from them, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tags "),_c('a',{attrs:{"href":"#use-case-uc04-list-all-tags"}},[_c('ins',[_v("(UC04)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to untag a contact with a specified tag.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the updated contact with the tag unassigned from them, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -530,43 +530,43 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User searches for the contact by
 with(this){return _c('h3',{attrs:{"id":"use-case-uc15-search-for-contacts-by-tag"}},[_c('strong',[_v("Use case: UC15 — Search for Contacts by Tag")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc15-search-for-contacts-by-tag","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for contacts by tag.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for contacts by tag.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc16-search-for-contacts-by-wedding"}},[_c('strong',[_v("Use case: UC16 — Search for Contacts by Wedding")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc16-search-for-contacts-by-wedding","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for contacts by wedding.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for contacts by wedding.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc17-search-for-contacts-by-phone-number"}},[_c('strong',[_v("Use case: UC17 — Search for Contacts by Phone Number")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc17-search-for-contacts-by-phone-number","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for contacts by phone number.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for contacts by phone number.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc18-search-for-contacts-by-address"}},[_c('strong',[_v("Use case: UC18 — Search for Contacts by Address")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc18-search-for-contacts-by-address","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for contacts by address.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for contacts by address.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc19-search-for-contacts-by-email-address"}},[_c('strong',[_v("Use case: UC19 — Search for Contacts by Email Address")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc19-search-for-contacts-by-email-address","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for contacts by email address.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for contacts by email address.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc20-search-for-wedding-by-wedding-name"}},[_c('strong',[_v("Use case: UC20 — Search for Wedding by Wedding Name")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc20-search-for-wedding-by-wedding-name","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for wedding by wedding name.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for wedding by wedding name.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc21-search-for-task-by-task-name"}},[_c('strong',[_v("Use case: UC21 — Search for Task by Task Name")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc21-search-for-task-by-task-name","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14search-for-contacts-by-name"}},[_v("UC14")]),_v(" except searching for task by task name.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc14-search-for-contacts-by-name"}},[_c('ins',[_v("UC14")])]),_v(" except searching for task by task name.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc22-assign-a-contact-to-one-or-more-weddings"}},[_c('strong',[_v("Use case: UC22 — Assign a Contact to one or more Weddings")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc22-assign-a-contact-to-one-or-more-weddings","onclick":"event.stopPropagation()"}})])}
@@ -575,7 +575,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc22-assign-a-contact-to-one-or
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all weddings "),_c('a',{attrs:{"href":"#use-case-uc02list-all-weddings"}},[_v("(UC02)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to assign a contact to a wedding.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact being associated with the specified wedding, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all weddings "),_c('a',{attrs:{"href":"#use-case-uc02-list-all-weddings"}},[_c('ins',[_v("(UC02)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to assign a contact to a wedding.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact being associated with the specified wedding, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -590,7 +590,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc23-unassign-a-contact-from-on
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all weddings "),_c('a',{attrs:{"href":"#use-case-uc02list-all-weddings"}},[_v("(UC02)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to unassign a contact from a wedding.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact no longer being associated with the specified wedding, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all weddings "),_c('a',{attrs:{"href":"#use-case-uc02-list-all-weddings"}},[_c('ins',[_v("(UC02)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to unassign a contact from a wedding.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact no longer being associated with the specified wedding, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -605,7 +605,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc24-assigning-a-vendor"}},[_c(
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to assign a contact as a Vendor.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact being designated as a vendor, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to assign a contact as a Vendor.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact being designated as a vendor, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -620,7 +620,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc25-unassigning-a-vendor"}},[_
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to unassign the contact as a vendor.")])]),_v(" "),_c('li',[_c('p',[_v("System shows the contact is no longer a vendor in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to unassign the contact as a vendor.")])]),_v(" "),_c('li',[_c('p',[_v("System shows the contact is no longer a vendor in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -635,7 +635,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc26-assign-one-or-more-tasks-t
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tasks "),_c('a',{attrs:{"href":"#use-case-uc03list-all-tasks"}},[_v("(UC03)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to assign a task to a contact.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact being assigned with the specified task, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tasks "),_c('a',{attrs:{"href":"#use-case-uc03-list-all-tasks"}},[_c('ins',[_v("(UC03)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to assign a task to a contact.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the contact being assigned with the specified task, in the list of contacts.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -647,7 +647,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The contact list is empty.\n
 with(this){return _c('h3',{attrs:{"id":"use-case-uc27-unassign-one-or-more-tasks-from-a-contact"}},[_c('strong',[_v("Use case: UC27 — Unassign one or more Tasks from a Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc27-unassign-one-or-more-tasks-from-a-contact","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc26assign-one-or-more-tasks-to-a-contact"}},[_v("UC26")]),_v(" except un-assigning tasks from a contact and an additional extension.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc26-assign-one-or-more-tasks-to-a-contact"}},[_c('ins',[_v("UC26")])]),_v(" except un-assigning tasks from a contact and an additional extension.")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("2b. A specified task is not assigned to the contact.\n"),_c('ul',[_c('li',[_c('p',[_v("2b1. System displays an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
@@ -659,7 +659,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc28-mark-one-or-more-tasks-as-
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tasks "),_c('a',{attrs:{"href":"#use-case-uc03list-all-tasks"}},[_v("(UC03)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to mark specified task(s) as completed.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the updated task status of the specified task(s) in the list of tasks.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all tasks "),_c('a',{attrs:{"href":"#use-case-uc03-list-all-tasks"}},[_c('ins',[_v("(UC03)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to mark specified task(s) as completed.")])]),_v(" "),_c('li',[_c('p',[_v("System displays the updated task status of the specified task(s) in the list of tasks.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -671,7 +671,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.\nUse case
 with(this){return _c('h3',{attrs:{"id":"use-case-uc29-mark-one-or-more-tasks-as-not-completed"}},[_c('strong',[_v("Use case: UC29 — Mark one or more Tasks as not Completed")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc29-mark-one-or-more-tasks-as-not-completed","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc28mark-one-or-more-tasks-as-completed"}},[_v("UC28")]),_v(" except marking tasks as not completed.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc28-mark-one-or-more-tasks-as-completed"}},[_c('ins',[_v("UC28")])]),_v(" except marking tasks as not completed.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc30-delete-contact"}},[_c('strong',[_v("Use case: UC30 — Delete Contact")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc30-delete-contact","onclick":"event.stopPropagation()"}})])}
@@ -680,7 +680,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-uc30-delete-contact"}},[_c('str
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific person in the list.")])]),_v(" "),_c('li',[_c('p',[_v("System deletes the contact.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific person in the list.")])]),_v(" "),_c('li',[_c('p',[_v("System deletes the contact.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -692,7 +692,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.\nUse case
 with(this){return _c('h3',{attrs:{"id":"use-case-uc31-delete-wedding"}},[_c('strong',[_v("Use case: UC31 — Delete Wedding")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc31-delete-wedding","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc30delete-contact"}},[_v("UC30")]),_v(" except deleting wedding and two additional extensions.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc30-delete-contact"}},[_c('ins',[_v("UC30")])]),_v(" except deleting wedding and two additional extensions.")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2b. User specified to force the deletion of the wedding.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. System displays an updated list of contacts with the specified wedding not assigned to any contacts.")]),_v(" "),_c('p',[_v("Use case resumes at step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("2c. There are one or more contacts still assigned to the specified wedding")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2c1. System displays an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
@@ -701,13 +701,13 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("2b. User specified to force the 
 with(this){return _c('h3',{attrs:{"id":"use-case-uc32-delete-task"}},[_c('strong',[_v("Use case: UC32 — Delete Task")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc32-delete-task","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc30delete-contact"}},[_v("UC30")]),_v(" except deleting task.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc30-delete-contact"}},[_c('ins',[_v("UC30")])]),_v(" except deleting task.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-uc33-delete-tag"}},[_c('strong',[_v("Use case: UC33 — Delete Tag")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-uc33-delete-tag","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc30delete-contact"}},[_v("UC30")]),_v(" except deleting tag and two additional extensions.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-uc30-delete-contact"}},[_c('ins',[_v("UC30")])]),_v(" except deleting tag and two additional extensions.")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2b. User specified to force the deletion of the tag.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2b1. System displays an updated list of contacts with the specified tag absent from all contacts.")]),_v(" "),_c('p',[_v("Use case resumes at step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("2c. A specified tag is still assigned to one or more contacts.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2c1. System displays an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])])])}
@@ -719,7 +719,7 @@ with(this){return _c('h3',{attrs:{"id":"use-case-ucsh01-edit-details-for-a-conta
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01list-all-contacts"}},[_v("(UC01)")])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to edit the details of a person and specifies what they want to change the details to.")])]),_v(" "),_c('li',[_c('p',[_v("System changes the existing details to the specified details and shows list of persons with new details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User "),_c('ins',[_v("lists all contacts "),_c('a',{attrs:{"href":"#use-case-uc01-list-all-contacts"}},[_c('ins',[_v("(UC01)")])])]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User requests to edit the details of a person and specifies what they want to change the details to.")])]),_v(" "),_c('li',[_c('p',[_v("System changes the existing details to the specified details and shows list of persons with new details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -731,7 +731,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The list is empty.\nUse case
 with(this){return _c('h3',{attrs:{"id":"use-case-ucsh02-edit-details-for-a-wedding"}},[_c('strong',[_v("Use case: UCSH02 — Edit details for a Wedding")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-ucsh02-edit-details-for-a-wedding","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-ucsh01edit-details-for-a-contact"}},[_v("UCSH01")]),_v(" except editing for wedding.")])}
+with(this){return _c('p',[_v("Similar to "),_c('a',{attrs:{"href":"#use-case-ucsh01-edit-details-for-a-contact"}},[_c('ins',[_v("UCSH01")])]),_v(" except editing for wedding.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"use-case-ucsh03-clear-all-contacts"}},[_c('strong',[_v("Use case: UCSH03 — Clear all contacts")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-ucsh03-clear-all-contacts","onclick":"event.stopPropagation()"}})])}
